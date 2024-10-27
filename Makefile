@@ -1,5 +1,7 @@
 dev:
 	uv run python manage.py runserver
+shell :
+	uv run python manage.py shell
 migrate:
 	uv run python manage.py migrate
 model:
